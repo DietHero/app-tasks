@@ -5,8 +5,14 @@ body {
     padding: 0;
     color:rgb(48, 51, 107)
 }
+.task__form {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    margin: 1rem;
+}
 
-.add__button{
+.task__button{
     border: 1px solid orange;
     color: rgb(48, 51, 107);
     cursor: pointer;
@@ -19,7 +25,6 @@ body {
 
 
 }
-
 .task__input {
     border: 1px solid orange;
     color: rgb(48, 51, 107);
@@ -28,8 +33,10 @@ body {
     border-radius: 1rem;
     width: 20rem;
     height: 2.5rem;
-    margin:1rem 2rem;
+    margin: 1rem;
     font-size: 18px;
+    padding: 0.25rem 1rem;
+    outline: none;
 }
 
 .tasks__container {

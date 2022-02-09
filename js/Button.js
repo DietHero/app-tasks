@@ -8,13 +8,15 @@ export const Button = class {
 
         button.innerText = this.label
 
-        button.classList.add('add__button')
+        button.classList.add('task__button')
 
-        button.addEventListener(
-            'click',
-           () => this.onClick()
-        )
-        return  button
+        if (this.onClick) {
+            button.addEventListener(
+                'click',
+                () => this.onClick()
+            )
+            return button
+        }
     }
 }
 export default Button
