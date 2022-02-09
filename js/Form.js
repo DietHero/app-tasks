@@ -1,7 +1,7 @@
 import { Input } from './Input.js'
 import { Button } from './Button.js'
 
-export const Form = class {
+export class Form {
 
     constructor(initialValue, onSubmit) {
         this.initialValue = initialValue

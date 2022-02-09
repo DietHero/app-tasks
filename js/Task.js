@@ -1,5 +1,5 @@
 import {Button } from './Button.js'
-export const Task = class {
+export class Task  {
     constructor(task, onComplete, onDelete) {
         this.task = task
         this.onComplete = onComplete

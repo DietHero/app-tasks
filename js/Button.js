@@ -1,4 +1,4 @@
-export const Button = class {
+export class Button {
     constructor(label, onClick) {
         this.label = label
         this.onClick = onClick
@@ -15,8 +15,9 @@ export const Button = class {
                 'click',
                 () => this.onClick()
             )
-            return button
+           
         }
+        return button
     }
 }
 export default Button
