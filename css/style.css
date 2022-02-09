@@ -1,0 +1,9 @@
+.add__button{
+    border: 1px solid orange;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 2rem;
+    margin: 1rem;
+}
