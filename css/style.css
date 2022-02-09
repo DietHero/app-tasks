@@ -1,9 +1,30 @@
+body {
+    font-size: 18px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 .add__button{
     border: 1px solid orange;
     cursor: pointer;
     background-color: transparent;
     border-radius: 0.5rem;
     width: 4rem;
-    height: 2rem;
+    height: 3rem;
     margin: 1rem;
+    font-size: 18px;
+
+
+}
+
+.task__input {
+    border: 1px solid orange;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    margin: 1rem;
+    font-size: 18px;
 }
