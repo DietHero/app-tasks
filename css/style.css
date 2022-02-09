@@ -3,10 +3,12 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    color:rgb(48, 51, 107)
 }
 
 .add__button{
     border: 1px solid orange;
+    color: rgb(48, 51, 107);
     cursor: pointer;
     background-color: transparent;
     border-radius: 0.5rem;
@@ -20,11 +22,29 @@ body {
 
 .task__input {
     border: 1px solid orange;
+    color: rgb(48, 51, 107);
     cursor: pointer;
     background-color: transparent;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     width: 20rem;
     height: 2.5rem;
-    margin: 1rem;
+    margin:1rem 2rem;
     font-size: 18px;
+}
+
+.tasks__container {
+   display: flex;
+   justify-content: space-between;
+   width: 30rem;
+   border-radius: 2rem;
+   margin: 1rem;
+   background-color: antiquewhite;
+}
+
+.task__completed {
+text-decoration: line-through;
+}
+
+.task {
+    margin: 2rem;
 }
